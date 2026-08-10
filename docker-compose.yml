@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  suresh-malli-web:
+    build: .
+    container_name: suresh_malli_portfolio
+    restart: always
+    ports:
+      - "80:80"
